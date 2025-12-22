@@ -47,7 +47,7 @@ class BoardWidget(QWidget):
     def _init_ui(self):
         """Initialize the user interface."""
         layout = QGridLayout()
-        layout.setSpacing(10)
+        layout.setSpacing(5)
         layout.setContentsMargins(20, 20, 20, 20)
         self.setLayout(layout)
         
