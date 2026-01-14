@@ -8,6 +8,7 @@ import logging
 import uuid
 from typing import Dict, Optional
 from common.protocol import Protocol, MessageType
+
 from common.player import Player
 from .client_handler import ClientHandler
 from .game_manager import GameManager

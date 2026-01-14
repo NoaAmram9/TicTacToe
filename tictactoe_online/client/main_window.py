@@ -13,8 +13,8 @@ from PyQt5.QtCore import Qt, pyqtSlot, QTimer, QPropertyAnimation, QEasingCurve,
 from PyQt5.QtGui import QFont, QIcon
 from .network_client import NetworkClient
 from .board_widget import BoardWidget
-from ..common.protocol import MessageType
-from ..common.game import GameState
+from common.protocol import MessageType
+from common.game import GameState
 import json
 import os
 

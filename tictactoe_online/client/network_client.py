@@ -7,7 +7,7 @@ import threading
 import logging
 from typing import Optional, Callable, Dict, Any
 from PyQt5.QtCore import QObject, pyqtSignal
-from tictactoe_online.common.protocol import Protocol, MessageType
+from common.protocol import Protocol, MessageType
 
 
 
