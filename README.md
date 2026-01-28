@@ -155,15 +155,8 @@ The server supports multiple concurrent games:
 - ⚡ **Fast responses** - The game updates in real-time
 - 🎨 **Enjoy the design** - Modern, clean, and pleasant
 - 
-All rights reserved to Noa Amram and Sima Priluk
-
-
-
-
-
----
 
 **Enjoy the game!** 🎉
 
-Made with ❤️ for learning network programming
->>>>>>> 129b429d4253b21ec37a2b906fa17da5e649a897
+### All rights reserved to Noa Amram and Sima Priluk ❤️ 
+
