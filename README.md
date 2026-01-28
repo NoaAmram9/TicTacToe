@@ -1,11 +1,10 @@
 # TicTacToe
-<<<<<<< HEAD
-Tic-Tac-Toe Game for Computer Networks and Internet 1
+Tic-Tac-Toe Game
 =======
-Tic-Tac-Toe Game for Computer Networks and Internet 1.
+Tic-Tac-Toe Game for Computer Networks and Internet
 # 🎮 Tic-Tac-Toe Online
 
-> A beautiful, modern multiplayer Tic-Tac-Toe game with real-time gameplay
+
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![Qt5](https://img.shields.io/badge/Qt5-5.15+-green.svg)](https://www.qt.io/)
@@ -45,7 +44,7 @@ pip install -r requirements.txt
 
 ```bash
 cd server
-python main.py
+python -m server.main
 ```
 
 The server will start on port 5555 (default).
@@ -54,10 +53,9 @@ The server will start on port 5555 (default).
 
 ```bash
 cd client
-python main.py
+python -m client.main
 ```
 
-Launch multiple clients to play together!
 
 ### 3. Play!
 
@@ -91,7 +89,6 @@ Each player gets a unique symbol: **X, O, Δ, □, ◇, ★, ♠, ♣, ♥, ♦*
 ### Project Structure
 
 ```
->>>>>>> 129b429d4253b21ec37a2b906fa17da5e649a897
 tictactoe_online/
 ├── common/              # Shared modules
 │   ├── protocol.py      # Network protocol (JSON over TCP)
@@ -144,23 +141,6 @@ tictactoe_online/
 - ✅ Error handling
 - ✅ Easy to extend
 
-## 🐛 Bug Fixes
-
-### ✅ Auto-Exit on Game Over
-**Issue**: Players stayed in game room after game ended  
-**Fix**: Game now automatically returns all players to lobby 2 seconds after game over
-
-## 📝 Usage Examples
-
-### Server Configuration
-
-```bash
-# Default port (5555)
-python server/main.py
-
-# Custom port
-python server/main.py 8080
-```
 
 ### Multiple Games
 
@@ -169,16 +149,6 @@ The server supports multiple concurrent games:
 - Players can create or join any available game
 - No limit on number of simultaneous games
 
-## 🧪 Testing
-
-Test scenarios:
-- ✅ 2-player standard game
-- ✅ 3-10 player games with dynamic boards
-- ✅ Win detection (all directions)
-- ✅ Draw detection
-- ✅ Player disconnect handling
-- ✅ Multiple concurrent games
-- ✅ Auto-exit after game over
 
 ## 💡 Tips
 
@@ -186,23 +156,10 @@ Test scenarios:
 - 👥 **Play with friends** - Share the game ID
 - ⚡ **Fast responses** - The game updates in real-time
 - 🎨 **Enjoy the design** - Modern, clean, and pleasant
+- 
+All rights reserved to Noa Amram and Sima Priluk
 
-## 📊 Statistics
 
-- **Total Lines**: 3,184
-- **Modules**: 11
-- **Languages**: Python, Qt/QML
-- **Protocol Messages**: 14 types
-- **Supported Players**: 2-10
-- **Board Sizes**: 3×3 to 11×11
-
-## 🤝 Contributing
-
-This is an educational project. Feel free to:
-- Fork and experiment
-- Add new features
-- Improve the design
-- Fix bugs
 
 
 
