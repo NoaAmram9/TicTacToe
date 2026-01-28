@@ -102,10 +102,8 @@ tictactoe_online/
 └── client/              # Client components
     ├── main_window.py   # Main GUI application
     ├── board_widget.py  # Interactive game board
-<<<<<<< HEAD
     └── network_client.py # Server communication
-=======
-    └── network_client.py # Server communication
+
 ```
 
 ### Network Protocol
