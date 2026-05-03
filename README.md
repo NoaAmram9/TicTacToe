@@ -3,7 +3,7 @@ Tic-Tac-Toe Game
 =======
 Tic-Tac-Toe Game for Computer Networks and Internet
 # 🎮 Tic-Tac-Toe Online
-
+# > 📺 Full video walkthrough available in the Wiki
 
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
