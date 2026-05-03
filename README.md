@@ -1,10 +1,8 @@
-# TicTacToe
-Tic-Tac-Toe Game
+# 🎮 Tic-Tac-Toe Online
 =======
 Tic-Tac-Toe Game for Computer Networks and Internet
-# 🎮 Tic-Tac-Toe Online
-# > 📺 Full video walkthrough available in the Wiki
 
+# > 📺 Full video walkthrough available in the Wiki
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![Qt5](https://img.shields.io/badge/Qt5-5.15+-green.svg)](https://www.qt.io/)
@@ -12,7 +10,7 @@ Tic-Tac-Toe Game for Computer Networks and Internet
 
 ## ✨ Features
 
-- 🎨 **Beautiful Modern UI** - Clean, light design with smooth interactions
+- 🎨 **Modern UI** - Clean, light design with smooth interactions
 - 👥 **2-10 Players** - Scale from classic 2-player to massive 10-player games
 - 📐 **Dynamic Boards** - Board size automatically adjusts: (players + 1)²
 - ⚡ **Real-Time Updates** - See moves instantly across all clients
@@ -22,7 +20,7 @@ Tic-Tac-Toe Game for Computer Networks and Internet
 ## 🎨 Design
 
 Modern, clean, light design with:
-- Soft color palette (#4A90E2, #50C878, #F8F9FA)
+- Soft color palette - The top four colors for 2025 according to Vogue magazine are used
 - Smooth hover effects
 - Clear visual feedback
 - Responsive layout
